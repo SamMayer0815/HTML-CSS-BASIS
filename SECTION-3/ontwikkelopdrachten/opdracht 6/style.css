@@ -1,0 +1,74 @@
+.alles {
+  text-align: center;
+}
+
+.alles h1 {
+  padding: 50px;
+}
+
+.een {
+  float: left;
+  background-color: yellow;
+  width: 33%;
+  height: 200px;
+}
+
+.twee {
+  float: left;
+  background-color: red;
+  width: 33%;
+  height: 200px;
+}
+
+.drie {
+  float: left;
+  background-color: blue;
+  width: 33%;
+  height: 200px;
+}
+
+.vier {
+  float: left;
+  background-color: green;
+  width: 33%;
+  height: 200px;
+}
+
+.vijf {
+  float: left;
+  background-color: lightgreen;
+  width: 33%;
+  height: 200px;
+}
+
+.vijf h1 {
+  padding: 0px;
+}
+
+.zes {
+  float: left;
+  background-color: purple;
+  width: 33%;
+  height: 200px;
+}
+
+.zeven {
+  float: left;
+  background-color: gray;
+  width: 33%;
+  height: 200px;
+}
+
+.acht {
+  float: left;
+  background-color: pink;
+  width: 33%;
+  height: 200px;
+}
+
+.negen {
+  float: left;
+  background-color: orange;
+  width: 33%;
+  height: 200px;
+}

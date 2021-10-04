@@ -1,0 +1,16 @@
+.foto1 {
+  width: 500px;
+  height: 500px;
+  width: 50%;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+p {
+  display: inline;
+}
