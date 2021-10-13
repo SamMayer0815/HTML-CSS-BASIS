@@ -1,0 +1,14 @@
+.container {
+  color: green;
+  word-spacing: 5px;
+}
+
+.container h1 {
+  font-size: 25px;
+}
+
+.container p {
+  line-height: 40px;
+  font-weight: 100;
+  max-width: 117ch;
+}

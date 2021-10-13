@@ -1,0 +1,31 @@
+* {
+  font-size: 100px;
+  text-decoration: none;
+}
+
+.red {
+  color: red;
+}
+
+.red:hover {
+  color: white;
+  background-color: red;
+}
+
+.green {
+  color: green;
+}
+
+.green:hover {
+  color: white;
+  background-color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.blue:hover {
+  color: white;
+  background-color: blue;
+}

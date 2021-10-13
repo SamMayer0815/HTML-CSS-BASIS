@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="tijger4.ico" />
+</head>
+
+<body>
+  <picture>
+    <source media="(min-width:600px)" srcset="tijger.jpg" />
+    <img src="tijger2.jpg" alt="tijger" />
+  </picture>
+  <div class="container">
+    <h1>Contactformulier</h1>
+
+    <label for="naam">Naam</label>
+    <input type="text" id="naam" name="naam" /><br /><br />
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" /><br /><br />
+
+    <label for="pwd1">Wachtwoord</label>
+    <input type="text" id="pwd1" name="pwd1" /><br /><br />
+
+    <label for="geslacht">Geslacht</label>
+    <select name="geslacht" id="geslacht">
+      <option label="man">Man</option>
+      <option label="vrouw">Vrouw</option>
+    </select>
+    <br /><br />
+
+    <label for="media">Media</label>
+    <div class="radio">
+      <input type="radio" name="test" /> <label>Nieuwsbrief</label><br />
+      <input type="radio" name="test" /><label>Mailing</label><br />
+      <input type="radio" name="test" /> <label>Post</label><br />
+    </div>
+    <br />
+
+    <input type="submit" value="Stuur me op!" />
+  </div>
+</body>

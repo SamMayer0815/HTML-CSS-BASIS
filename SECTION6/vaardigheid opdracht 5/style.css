@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: grey;
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1201px) {
+  .lol {
+    width: 800px;
+    height: 400px;
+    background-color: red;
+    border-top: solid white 25px;
+    border-bottom: solid white 25px;
+    border-left: solid white 60px;
+    border-right: solid white 60px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+  .lol1 {
+    width: 500px;
+    height: 350px;
+    background-color: yellow;
+    border-top: solid white 60px;
+    border-bottom: solid white 60px;
+    border-left: solid white 70px;
+    border-right: solid white 70px;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 501px) {
+  .lol2 {
+    width: 200px;
+    height: 250px;
+    background-color: green;
+    border-top: solid white 90px;
+    border-bottom: solid white 90px;
+    border-left: solid white 80px;
+    border-right: solid white 90px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .lol3 {
+    width: 50px;
+    height: 90px;
+    background-color: blue;
+    border-top: solid white 100px;
+    border-bottom: solid white 100px;
+    border-left: solid white 80px;
+    border-right: solid white 80px;
+  }
+}

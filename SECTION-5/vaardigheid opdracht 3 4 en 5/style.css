@@ -1,0 +1,21 @@
+.lol {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: auto;
+}
+
+h1 {
+  position: relative;
+  top: -60px;
+  right: -220px;
+  background-color: green;
+  width: 259px;
+  height: 35px;
+}
+
+.doei {
+  max-height: 50vh;
+  overflow: hidden;
+}

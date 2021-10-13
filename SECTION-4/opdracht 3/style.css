@@ -1,0 +1,36 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 300px;
+}
+
+.icoon1 img {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.icoon1 h1 {
+  font-size: 50px;
+}
+
+.icoon2 img {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.icoon2 h1 {
+  font-size: 50px;
+}
+
+.icoon3 img {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.icoon3 h1 {
+  font-size: 50px;
+}
