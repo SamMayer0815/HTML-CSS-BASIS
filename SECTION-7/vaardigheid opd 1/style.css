@@ -1,0 +1,11 @@
+.container {
+  margin: 0px;
+  padding: 0px;
+  border: solid 10px black;
+  display: flex;
+}
+
+.flex {
+  border: solid 2px green;
+  height: 500px;
+}

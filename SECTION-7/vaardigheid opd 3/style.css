@@ -1,0 +1,14 @@
+.container {
+  margin: 0px;
+  padding: 0px;
+  border: solid 10px black;
+  display: flex;
+  width: 600px;
+  overflow: scroll;
+}
+
+.flex {
+  border: solid 2px green;
+  height: 500px;
+  min-width: 100px;
+}
