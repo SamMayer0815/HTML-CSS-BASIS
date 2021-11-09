@@ -1,0 +1,60 @@
+.yahtzee{
+  border: black solid 2px;
+  width: 600px;
+  height: 730px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+  grid-auto-flow: dense;
+}
+
+.sectie{
+  border: solid black 1px;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.score{
+  border: solid black 1px;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.game{
+  border: solid black 1px;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.sectie-8,.sectie-10,.sectie-11,.sectie-19,.sectie-20,.sectie-21{
+  grid-column: span 2;
+}
+
+.container{
+  border: black solid 2px;
+  width: 600px;
+  height: 250px;
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  position: absolute;
+  top: 200px;
+  left: 700px
+}
+
+.dobbelsteen{
+  border: solid black 1px;
+}
+
+.rol{
+  grid-column: span 5;
+  border: solid black 1px;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+  font-size: 50PX;
+}

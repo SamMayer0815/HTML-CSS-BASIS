@@ -1,0 +1,122 @@
+*{
+  background-color: indianred;
+}
+
+.container{
+  width: 800px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  border: solid black 2px;
+  grid-auto-flow: dense;
+}
+
+.grid{
+  align-content: center;
+  display: grid;
+  justify-content: center;
+  font-size: 15px;
+  text-align: center;
+}
+
+.grid-0{
+  background-color: thistle;
+}
+
+.grid-1{
+  background-color: red;
+  grid-row: span 2 ;
+  grid-column:  span 2;
+}
+
+.grid-2{
+  background-color: blue;
+}
+
+.grid-3{
+  background-color: purple;
+  grid-column: span 2;
+}
+
+.grid-4{
+  background-color: green;
+  grid-column: span 3;
+}
+
+.grid-5{
+  background-color: lightblue;
+}
+
+.grid-6{
+  background-color: yellow;
+}
+
+.grid-7{
+  background-color: thistle;
+}
+
+.grid-8{
+  background-color: red;
+  grid-column:span 2 ;
+  grid-row: span 2 ;
+}
+
+.grid-9{
+  background-color: blue;
+}
+
+.grid-10{
+  background-color:  lightblue;
+}
+
+
+.grid-11{
+  background-color: green ;
+  grid-column: span 3;
+}
+.grid-12{
+  background-color:purple ;
+  grid-column:  span 2;
+
+}
+.grid-13{
+  background-color: yellow ;
+
+}
+
+.grid-15{
+  background-color: red ;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid-16{
+  background-color: blue ;
+}
+
+.grid-17{
+  background-color: purple ;
+  grid-column: span 2;
+}
+
+.grid-18{
+  background-color: green ;
+  grid-column: span 3;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 601px){
+  .container{
+    width: 530px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px){
+  .container{
+    width: 300px;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(13, 1fr);
+  }
+}
